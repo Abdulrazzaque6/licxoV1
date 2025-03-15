@@ -41,7 +41,7 @@ const GooglePlacesAutocomplete = ({ searchQuery, setSearchQuery, setSearchParams
       type="text"
       value={searchQuery}
       onChange={(e) => setSearchQuery(e.target.value)}
-      placeholder="Search for city"
+      placeholder="Search for City"
       className="w-full p-3 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
     />
   );
